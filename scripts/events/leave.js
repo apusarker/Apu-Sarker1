@@ -14,7 +14,7 @@ module.exports.run = async function({ api, event, Users, Threads }) {
 	const data = global.data.threadData.get(parseInt(threadID)) || (await Threads.getData(threadID)).data;
 	const name = global.data.userName.get(event.logMessageData.leftParticipantFbId) || await Users.getNameUser(event.logMessageData.leftParticipantFbId);
 	const type = (event.author == event.logMessageData.leftParticipantFbId) ? "কই যাস বলদ দেক তোরে আবার এড দিছি 😂: "Kicked by Administrator";
-	const path = join(__dirname, "nayan", "leaveGif");
+	const path = join(__dirname, "imgur", "leaveGif");
 	const gifPath = join(path, `https://i.imgur.com/7GEnNF0.gif`);
 	var msg, formPush
 
