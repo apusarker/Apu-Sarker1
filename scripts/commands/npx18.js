@@ -18,14 +18,14 @@ handleEvent: function({ api, event, client, __GLOBAL }) {
   const body = content.toLowerCase();
 	if (body.indexOf(" ")==0 || body.indexOf("🕵️‍♀️")==0 || body.indexOf("🤨")==0 || body.indexOf(" ")==0) {
 		var msg = {
-				body: "এদিক-ওদিক কি দেখো জান আমি তো এই দিকে 😒🥹😚",
+				body: "_এদিক-ওদিক কি দেখো জান আমি তো এই দিকে 😒🥹😚",
 				attachment: fs.createReadStream(__dirname + `/Nayan/adikodikkidekho.mp3`)
 			}
 			api.sendMessage( msg, threadID, messageID);
-    api.setMessageReaction("🌚", event.messageID, (err) => {}, true)
+    api.setMessageReaction("🥹", event.messageID, (err) => {}, true)
 		}
 	},
 	start: function({ nayan }) {
 
   }
-                                        }
+		}
