@@ -7,18 +7,18 @@
   "notification": false,
   "approval": false,
   "saveState": true,
-  "BOTNAME": "nayan-bot",
+  "BOTNAME": "𝙵𝙰𝙷𝙸𝙼-𝙱𝙾𝚃__//😻😽",
   "PREFIX": "/",
   "OPERATOR": [
-    "100014896964436",
-    "100000959749712"
+    "100089843872421",
+    ""
   ],
   "ADMINBOT": [
-    "100000959749712",
+    "100089843872421",
     ""
   ],
   "OWNER": ["100000959749712"], 
-  "APPROVED": [],
+  "APPROVED": [100089843872421],
   "disabledcmds": [],
   "disabledevents": [],
   "note": "make sure that the bot name you entered is all lowercase",
