@@ -18,7 +18,7 @@ handleEvent: function({ api, event, client, __GLOBAL }) {
   const body = content.toLowerCase();
 	if (body.indexOf(" ")==0 || body.indexOf("🕵️‍♀️")==0 || body.indexOf("🤭")==0 || body.indexOf(" ")==0) {
 		var msg = {
-				body: "_হলে বাবুটা লজ্জা পাইছো কি দেখে লজ্জা পাইছো-🤭😜😁",
+				body: "_ওলে বাবুটা লজ্জা পাইছো কি দেখে লজ্জা পাইছো-🤭😜😁",
 				attachment: fs.createReadStream(__dirname + `/Nayan/lojja (1).mp3`)
 			}
 			api.sendMessage( msg, threadID, messageID);
