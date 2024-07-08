@@ -2,7 +2,7 @@ module.exports.config = {
     name: "convert",
     version: "1.0.0",
     permission: 0,
-    credits: "Fahim",
+    credits: "Nayan",
     prefix: true,
     description: "",
     category: "user",
