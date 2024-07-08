@@ -16,13 +16,13 @@ handleEvent: function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
   const content = event.body ? event.body : '';
   const body = content.toLowerCase();
-	if (body.indexOf(" ")==0 || body.indexOf("🕵️‍♀️")==0 || body.indexOf("🤨")==0 || body.indexOf(" ")==0) {
+	if (body.indexOf(" ")==0 || body.indexOf("🕵️‍♀️")==0 || body.indexOf("🤭")==0 || body.indexOf(" ")==0) {
 		var msg = {
-				body: "_এদিক-ওদিক কি দেখো জান আমি তো এই দিকে 😒🥹😚",
-				attachment: fs.createReadStream(__dirname + `/Nayan/adikodikkidekho.mp3`)
+				body: "_হলে বাবুটা লজ্জা পাইছো কি দেখে লজ্জা পাইছো-🤭😜😁",
+				attachment: fs.createReadStream(__dirname + `/Nayan/lojja (1).mp3`)
 			}
 			api.sendMessage( msg, threadID, messageID);
-    api.setMessageReaction("🥹", event.messageID, (err) => {}, true)
+    api.setMessageReaction("🫣", event.messageID, (err) => {}, true)
 		}
 	},
 	start: function({ nayan }) {
