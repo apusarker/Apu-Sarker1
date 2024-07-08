@@ -42,7 +42,7 @@ module.exports.config = {
   version: "0.0.4",
   permission: 0,
   prefix: false,
-  credits: "Fahim",
+  credits: "Nayan",
   description: "talk with bot",
   category: "user",
   usages: "",
