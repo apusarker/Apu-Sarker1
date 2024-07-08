@@ -2,7 +2,7 @@ module.exports.config = {
     name: "convert",
     version: "1.0.0",
     permission: 0,
-    credits: "Nayan",
+    credits: "Fahim",
     prefix: true,
     description: "",
     category: "user",
@@ -19,7 +19,7 @@ var audioss = []
     var { data } = await axios.get(audio ,{  method: 'GET',  responseType: 'arraybuffer' });
                 fs.writeFileSync(__dirname + "/cache/vdtoau.m4a", Buffer.from(data, 'utf-8'));
   audioss.push(fs.createReadStream(__dirname + "/cache/vdtoau.m4a"));
-    var msg = { body : "𝗖𝗼𝘃𝗲𝗿𝘁 𝘀𝗮𝗻𝗴 𝗠𝗣𝟯  ️🎶\n𝐌𝐨𝐡𝐚𝐦𝐦𝐚𝐝 𝐧𝐚𝐲𝐚𝐧", attachment: audioss}
+    var msg = { body : "𝗖𝗼𝘃𝗲𝗿𝘁 𝘀𝗮𝗻𝗴 𝗠𝗣𝟯  ️🎶\nᴍᴏʜᴀᴍᴍᴇᴅ ꜰᴀʜɪᴍ", attachment: audioss}
   api.sendMessage(msg, event.threadID, event.messageID)
 } catch(e){
     console.log(e)
