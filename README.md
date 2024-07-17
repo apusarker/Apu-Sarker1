@@ -1,7 +1,7 @@
 ## ABOUT ME
 
-name : ```Nayan Developer```</br>
-age : ```20```</br>
+name : ```𝐅𝐀𝐇𝐈𝐌 𝐂𝐇𝐎𝐖𝐃𝐇𝐔𝐑𝐘```</br>
+age : ```18+```</br>
 link : [facebook](https://www.facebook.com/profile.php?id=100000959749712).</br>
 
 ## CREDITS
