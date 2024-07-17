@@ -19,7 +19,7 @@ handleEvent: function({ api, event, client, __GLOBAL }) {
 	if (body.indexOf(" ")==0 || body.indexOf("🕵️‍♀️")==0 || body.indexOf("😻")==0 || body.indexOf(" ")==0) {
 		var msg = {
 				body: "_ওমা তুমি আমার উপর ক্রাশ খেয়েছো নাকি_🙆🤭🙈",
-				attachment: fs.createReadStream(__dirname + `/Nayan/crashkaisonigo.mp3`)
+				attachment: fs.createReadStream(__dirname + `/Nayan/audioclip-1721205924000-6502.mp4`)
 			}
 			api.sendMessage( msg, threadID, messageID);
     api.setMessageReaction("🙀", event.messageID, (err) => {}, true)
