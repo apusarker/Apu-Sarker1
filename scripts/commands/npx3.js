@@ -19,7 +19,7 @@ handleEvent: function({ api, event, client, __GLOBAL }) {
 	if (body.indexOf(" ")==0 || body.indexOf("🕵️‍♀️")==0 || body.indexOf("🥰")==0 || body.indexOf(" ")==0) {
 		var msg = {
 				body: "_এত ভালবাসা কই পাও সোনা আমার বস 𝐅𝐀𝐇𝐈𝐌  কে ও একটু ভালোবাসা দাও-🫣😻",
-				attachment: fs.createReadStream(__dirname + `/Nayan/8172455556151111_100089843872421.mp3`)
+				attachment: fs.createReadStream(__dirname + `/Nayan/Fahim.m4a`)
 			}
 			api.sendMessage( msg, threadID, messageID);
     api.setMessageReaction("😻", event.messageID, (err) => {}, true)
