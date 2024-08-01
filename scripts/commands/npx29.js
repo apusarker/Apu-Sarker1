@@ -19,13 +19,13 @@ handleEvent: function({ api, event, client, __GLOBAL }) {
 	if (body.indexOf(" ")==0 || body.indexOf("🕵️‍♀️")==0 || body.indexOf("🐸")==0 || body.indexOf(" ")==0) {
 		var msg = {
 				body: "ব্যাঙ কাকে দেখাও, আমি ব্যাঙ দেখে ভয় পাই নাহ____// 😒😜😑",
-				attachment: fs.createReadStream(__dirname + `/Nayan/beng.mp3')
+				attachment: fs.createReadStream(__dirname + `/Nayan/beng.mp3`)
 			}
 			api.sendMessage( msg, threadID, messageID);
-    api.setMessageReaction("😦", event.messageID, (err) => {}, true)
+    api.setMessageReaction("😨", event.messageID, (err) => {}, true)
 		}
 	},
 	start: function({ nayan }) {
 
   }
-      }
+}
